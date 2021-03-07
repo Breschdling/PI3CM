@@ -1,0 +1,621 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title "GPIO"
+Date "2017-04-21"
+Rev "A"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Raspberry Pi 3 carrier board"
+$EndDescr
+$Comp
+L Board_RPi_CM3lite_200pConnector_multipart X1
+U 6 1 58FF6425
+P 7700 3500
+F 0 "X1" H 7100 1750 50  0000 C CNN
+F 1 "DDR2_SODIMM" H 7650 5300 50  0000 C CNN
+F 2 "Connector:Conn_TE-DDR2-SODIMM-0.6-200P" H 13675 650 10  0001 C CNN
+F 3 "_" H 13675 650 10  0001 C CNN
+F 4 "_" H 13675 650 10  0001 C CNN "Manf#"
+F 5 "_" H 13675 650 10  0001 C CNN "Manf"
+F 6 "_" H 13675 650 10  0001 C CNN "Optn"
+	6    7700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R38
+U 1 1 58FF6512
+P 9450 3000
+F 0 "R38" V 9530 3000 50  0000 C CNN
+F 1 "100k" V 9450 3000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 9380 3000 50  0001 C CNN
+F 3 "" H 9450 3000 50  0001 C CNN
+	1    9450 3000
+	1    0    0    -1  
+$EndComp
+Text Label 6400 2150 0    60   ~ 0
+GPIO2
+$Comp
+L R R40
+U 1 1 58FF65A0
+P 9650 3000
+F 0 "R40" V 9730 3000 50  0000 C CNN
+F 1 "100k" V 9650 3000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 9580 3000 50  0001 C CNN
+F 3 "" H 9650 3000 50  0001 C CNN
+	1    9650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR97
+U 1 1 58FF65BC
+P 9450 3200
+F 0 "#PWR97" H 9450 2950 50  0001 C CNN
+F 1 "GND" H 9450 3050 50  0000 C CNN
+F 2 "" H 9450 3200 50  0001 C CNN
+F 3 "" H 9450 3200 50  0001 C CNN
+	1    9450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR99
+U 1 1 58FF65D7
+P 9650 3200
+F 0 "#PWR99" H 9650 2950 50  0001 C CNN
+F 1 "GND" H 9650 3050 50  0000 C CNN
+F 2 "" H 9650 3200 50  0001 C CNN
+F 3 "" H 9650 3200 50  0001 C CNN
+	1    9650 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R39
+U 1 1 58FF660E
+P 9450 5350
+F 0 "R39" V 9530 5350 50  0000 C CNN
+F 1 "100k" V 9450 5350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 9380 5350 50  0001 C CNN
+F 3 "" H 9450 5350 50  0001 C CNN
+	1    9450 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R41
+U 1 1 58FF66B0
+P 9650 5350
+F 0 "R41" V 9730 5350 50  0000 C CNN
+F 1 "100k" V 9650 5350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 9580 5350 50  0001 C CNN
+F 3 "" H 9650 5350 50  0001 C CNN
+	1    9650 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR98
+U 1 1 58FF66E7
+P 9450 5550
+F 0 "#PWR98" H 9450 5300 50  0001 C CNN
+F 1 "GND" H 9450 5400 50  0000 C CNN
+F 2 "" H 9450 5550 50  0001 C CNN
+F 3 "" H 9450 5550 50  0001 C CNN
+	1    9450 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR100
+U 1 1 58FF6733
+P 9650 5550
+F 0 "#PWR100" H 9650 5300 50  0001 C CNN
+F 1 "GND" H 9650 5400 50  0000 C CNN
+F 2 "" H 9650 5550 50  0001 C CNN
+F 3 "" H 9650 5550 50  0001 C CNN
+	1    9650 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Board_RPi_A+/B+/2B_40pConnector X2
+U 1 1 58FF68C2
+P 3100 3050
+F 0 "X2" H 3547 1984 50  0000 C CNN
+F 1 "PH20x2_2.54 female" H 2350 4100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H 3100 3050 10  0001 C CNN
+F 3 "E:\\Datasheets\\Electronics\\ElectroMechanical\\Connectors\\RM_2.54mm\\3M_2.54-Terminal-Headers-Bottom-Entry_ts2192" H 3100 3050 10  0001 C CNN
+F 4 "966240-2000-AR" H 3100 3050 10  0001 C CNN "Manf#"
+F 5 "3M" H 3100 3050 10  0001 C CNN "Manf"
+F 6 "_" H 3100 3050 10  0001 C CNN "Optn"
+	1    3100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR94
+U 1 1 58FF6B38
+P 3100 4550
+F 0 "#PWR94" H 3100 4300 50  0001 C CNN
+F 1 "GND" H 3100 4400 50  0000 C CNN
+F 2 "" H 3100 4550 50  0001 C CNN
+F 3 "" H 3100 4550 50  0001 C CNN
+	1    3100 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR95
+U 1 1 58FF6D59
+P 3200 1650
+F 0 "#PWR95" H 3200 1500 50  0001 C CNN
+F 1 "+3V3" H 3200 1790 50  0000 C CNN
+F 2 "" H 3200 1650 50  0001 C CNN
+F 3 "" H 3200 1650 50  0001 C CNN
+	1    3200 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR93
+U 1 1 58FF6D79
+P 2900 1650
+F 0 "#PWR93" H 2900 1500 50  0001 C CNN
+F 1 "+5V" H 2900 1790 50  0000 C CNN
+F 2 "" H 2900 1650 50  0001 C CNN
+F 3 "" H 2900 1650 50  0001 C CNN
+	1    2900 1650
+	1    0    0    -1  
+$EndComp
+Text Label 3850 2300 0    60   ~ 0
+GPIO2
+Text Label 6400 2300 0    60   ~ 0
+GPIO3
+Text Label 3850 2400 0    60   ~ 0
+GPIO3
+Text Label 3850 2600 0    60   ~ 0
+GPIO14
+Text Label 3850 2700 0    60   ~ 0
+GPIO15
+Text Label 3850 2900 0    60   ~ 0
+GPIO10
+Text Label 3850 3000 0    60   ~ 0
+GPIO9
+Text Label 3850 3100 0    60   ~ 0
+GPIO11
+Text Label 3850 3200 0    60   ~ 0
+GPIO8
+Text Label 3850 3300 0    60   ~ 0
+GPIO7
+Text Label 3850 3500 0    60   ~ 0
+GPIO20
+Text Label 3850 3600 0    60   ~ 0
+GPIO19
+Text Label 3850 3700 0    60   ~ 0
+GPIO21
+Text Label 3850 3800 0    60   ~ 0
+GPIO17
+Text Label 2050 2300 0    60   ~ 0
+GPIO4
+Text Label 2050 2400 0    60   ~ 0
+GPIO5
+Text Label 2050 2500 0    60   ~ 0
+GPIO6
+Text Label 2050 2600 0    60   ~ 0
+GPIO12
+Text Label 2050 2700 0    60   ~ 0
+GPIO13
+Text Label 2050 2800 0    60   ~ 0
+GPIO16
+Text Label 2050 2900 0    60   ~ 0
+GPIO18
+Text Label 2050 3000 0    60   ~ 0
+GPIO22
+Text Label 2050 3100 0    60   ~ 0
+GPIO23
+Text Label 2050 3200 0    60   ~ 0
+GPIO24
+Text Label 2050 3300 0    60   ~ 0
+GPIO25
+Text Label 2050 3400 0    60   ~ 0
+GPIO26
+Text Label 2050 3500 0    60   ~ 0
+GPIO27
+Text Label 2050 3700 0    60   ~ 0
+GPIO0
+Text Label 2050 3800 0    60   ~ 0
+GPIO1
+Text Label 6400 1850 0    60   ~ 0
+GPIO0
+Text Label 6400 2000 0    60   ~ 0
+GPIO1
+Text Label 6400 2450 0    60   ~ 0
+GPIO4
+Text Label 6400 2600 0    60   ~ 0
+GPIO5
+Text Label 6400 2750 0    60   ~ 0
+GPIO6
+Text Label 6400 2900 0    60   ~ 0
+GPIO7
+Text Label 6400 3050 0    60   ~ 0
+GPIO8
+Text Label 6400 3200 0    60   ~ 0
+GPIO9
+Text Label 6400 3350 0    60   ~ 0
+GPIO10
+Text Label 6400 3500 0    60   ~ 0
+GPIO11
+Text Label 6400 3650 0    60   ~ 0
+GPIO12
+Text Label 6400 3800 0    60   ~ 0
+GPIO13
+Text Label 6400 3950 0    60   ~ 0
+GPIO14
+Text Label 6400 4100 0    60   ~ 0
+GPIO15
+Text Label 6400 4250 0    60   ~ 0
+GPIO16
+Text Label 6400 4400 0    60   ~ 0
+GPIO17
+Text Label 6400 4550 0    60   ~ 0
+GPIO18
+Text Label 6400 4700 0    60   ~ 0
+GPIO19
+Text Label 6400 4850 0    60   ~ 0
+GPIO20
+Text Label 6400 5000 0    60   ~ 0
+GPIO21
+Text Label 6400 5150 0    60   ~ 0
+GPIO22
+Text Label 8650 1850 0    60   ~ 0
+GPIO23
+Text Label 8650 2000 0    60   ~ 0
+GPIO24
+Text Label 8650 2150 0    60   ~ 0
+GPIO25
+Text Label 8650 2300 0    60   ~ 0
+GPIO26
+Text Label 8650 2450 0    60   ~ 0
+GPIO27
+Text Label 8650 2900 0    60   ~ 0
+GPIO30
+Text Label 8650 3050 0    60   ~ 0
+GPIO31
+Text Label 8650 3200 0    60   ~ 0
+GPIO32
+Text Label 8650 3350 0    60   ~ 0
+GPIO33
+Text Label 8650 3500 0    60   ~ 0
+GPIO34
+Text Label 8650 3650 0    60   ~ 0
+GPIO35
+Text Label 8650 3800 0    60   ~ 0
+GPIO36
+Text Label 8650 3950 0    60   ~ 0
+GPIO37
+Text Label 8650 4100 0    60   ~ 0
+GPIO38
+Text Label 8650 4250 0    60   ~ 0
+GPIO39
+Text Label 8650 4400 0    60   ~ 0
+GPIO40
+Text Label 8650 4550 0    60   ~ 0
+GPIO41
+Text Label 8650 4700 0    60   ~ 0
+GPIO42
+Text Label 8650 4850 0    60   ~ 0
+GPIO43
+Text Label 2400 5450 0    60   ~ 0
+GPIO30
+Text Label 3450 5450 0    60   ~ 0
+GPIO31
+Text Label 2400 5550 0    60   ~ 0
+GPIO32
+Text Label 3450 5550 0    60   ~ 0
+GPIO33
+Text Label 2400 5650 0    60   ~ 0
+GPIO34
+Text Label 3450 5650 0    60   ~ 0
+GPIO35
+Text Label 2400 5750 0    60   ~ 0
+GPIO36
+Text Label 3450 5750 0    60   ~ 0
+GPIO37
+Text Label 2400 5850 0    60   ~ 0
+GPIO38
+Text Label 3450 5850 0    60   ~ 0
+GPIO39
+Text Label 2400 5950 0    60   ~ 0
+GPIO40
+Text Label 3450 5950 0    60   ~ 0
+GPIO41
+Text Label 2400 6050 0    60   ~ 0
+GPIO42
+Text Label 3450 6050 0    60   ~ 0
+GPIO43
+$Comp
+L GND #PWR96
+U 1 1 58FF9D7C
+P 4100 5350
+F 0 "#PWR96" H 4100 5100 50  0001 C CNN
+F 1 "GND" H 4100 5200 50  0000 C CNN
+F 2 "" H 4100 5350 50  0001 C CNN
+F 3 "" H 4100 5350 50  0001 C CNN
+	1    4100 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2600 9650 2600
+Wire Wire Line
+	8550 2750 9450 2750
+Wire Wire Line
+	9450 2750 9450 2850
+Wire Wire Line
+	9650 2600 9650 2850
+Wire Wire Line
+	9450 3200 9450 3150
+Wire Wire Line
+	9650 3200 9650 3150
+Wire Wire Line
+	9650 5550 9650 5500
+Wire Wire Line
+	9450 5550 9450 5500
+Wire Wire Line
+	9450 5200 9450 5150
+Wire Wire Line
+	9450 5150 8550 5150
+Wire Wire Line
+	9650 5200 9650 5000
+Wire Wire Line
+	9650 5000 8550 5000
+Wire Wire Line
+	3750 3500 4300 3500
+Wire Wire Line
+	2750 4200 2750 4300
+Wire Wire Line
+	2750 4300 2850 4300
+Wire Wire Line
+	3450 4300 3450 4200
+Wire Wire Line
+	2850 4200 2850 4300
+Connection ~ 2850 4300
+Wire Wire Line
+	2950 4200 2950 4300
+Connection ~ 2950 4300
+Wire Wire Line
+	3050 4200 3050 4300
+Connection ~ 3050 4300
+Wire Wire Line
+	3150 4200 3150 4300
+Connection ~ 3150 4300
+Wire Wire Line
+	3250 4200 3250 4300
+Connection ~ 3250 4300
+Wire Wire Line
+	3350 4200 3350 4300
+Connection ~ 3350 4300
+Wire Wire Line
+	3100 4300 3100 4550
+Connection ~ 3100 4300
+Wire Wire Line
+	2900 1900 2900 1850
+Wire Wire Line
+	3000 1900 3000 1850
+Wire Wire Line
+	3000 1850 2900 1850
+Connection ~ 2900 1850
+Wire Wire Line
+	3200 1900 3200 1850
+Wire Wire Line
+	3300 1900 3300 1850
+Wire Wire Line
+	3300 1850 3200 1850
+Connection ~ 3200 1850
+Wire Wire Line
+	3750 2300 4300 2300
+Wire Wire Line
+	3750 2400 4300 2400
+Wire Wire Line
+	6850 2300 6250 2300
+Wire Wire Line
+	6250 2150 6850 2150
+Wire Wire Line
+	3750 2600 4300 2600
+Wire Wire Line
+	3750 2700 4300 2700
+Wire Wire Line
+	3750 2900 4300 2900
+Wire Wire Line
+	3750 3000 4300 3000
+Wire Wire Line
+	3750 3100 4300 3100
+Wire Wire Line
+	3750 3200 4300 3200
+Wire Wire Line
+	3750 3300 4300 3300
+Wire Wire Line
+	3750 3600 4300 3600
+Wire Wire Line
+	3750 3700 4300 3700
+Wire Wire Line
+	3750 3800 4300 3800
+Wire Wire Line
+	2450 2300 1900 2300
+Wire Wire Line
+	2450 2400 1900 2400
+Wire Wire Line
+	2450 2500 1900 2500
+Wire Wire Line
+	2450 2600 1900 2600
+Wire Wire Line
+	2450 2700 1900 2700
+Wire Wire Line
+	2450 2800 1900 2800
+Wire Wire Line
+	2450 2900 1900 2900
+Wire Wire Line
+	2450 3000 1900 3000
+Wire Wire Line
+	2450 3100 1900 3100
+Wire Wire Line
+	2450 3200 1900 3200
+Wire Wire Line
+	2450 3300 1900 3300
+Wire Wire Line
+	2450 3400 1900 3400
+Wire Wire Line
+	2450 3500 1900 3500
+Wire Wire Line
+	2450 3700 1900 3700
+Wire Wire Line
+	2450 3800 1900 3800
+Wire Wire Line
+	6850 1850 6250 1850
+Wire Wire Line
+	6850 2000 6250 2000
+Wire Wire Line
+	6850 2450 6250 2450
+Wire Wire Line
+	6850 2600 6250 2600
+Wire Wire Line
+	6850 2750 6250 2750
+Wire Wire Line
+	6850 2900 6250 2900
+Wire Wire Line
+	6850 3050 6250 3050
+Wire Wire Line
+	6850 3200 6250 3200
+Wire Wire Line
+	6850 3350 6250 3350
+Wire Wire Line
+	6850 3500 6250 3500
+Wire Wire Line
+	6850 3650 6250 3650
+Wire Wire Line
+	6850 3800 6250 3800
+Wire Wire Line
+	6850 3950 6250 3950
+Wire Wire Line
+	6850 4100 6250 4100
+Wire Wire Line
+	6850 4250 6250 4250
+Wire Wire Line
+	6850 4400 6250 4400
+Wire Wire Line
+	6850 4550 6250 4550
+Wire Wire Line
+	6850 4700 6250 4700
+Wire Wire Line
+	6850 4850 6250 4850
+Wire Wire Line
+	6850 5000 6250 5000
+Wire Wire Line
+	6850 5150 6250 5150
+Wire Wire Line
+	8550 1850 9100 1850
+Wire Wire Line
+	8550 2000 9100 2000
+Wire Wire Line
+	8550 2150 9100 2150
+Wire Wire Line
+	8550 2300 9100 2300
+Wire Wire Line
+	8550 2450 9100 2450
+Wire Wire Line
+	8550 2900 9100 2900
+Wire Wire Line
+	8550 3050 9100 3050
+Wire Wire Line
+	8550 3200 9100 3200
+Wire Wire Line
+	8550 3350 9100 3350
+Wire Wire Line
+	8550 3500 9100 3500
+Wire Wire Line
+	8550 3650 9100 3650
+Wire Wire Line
+	8550 3800 9100 3800
+Wire Wire Line
+	8550 3950 9100 3950
+Wire Wire Line
+	8550 4100 9100 4100
+Wire Wire Line
+	8550 4250 9100 4250
+Wire Wire Line
+	8550 4400 9100 4400
+Wire Wire Line
+	8550 4550 9100 4550
+Wire Wire Line
+	8550 4700 9100 4700
+Wire Wire Line
+	8550 4850 9100 4850
+Wire Wire Line
+	2850 5450 2300 5450
+Wire Wire Line
+	2850 5550 2300 5550
+Wire Wire Line
+	2850 5650 2300 5650
+Wire Wire Line
+	2850 5750 2300 5750
+Wire Wire Line
+	2850 5850 2300 5850
+Wire Wire Line
+	2850 5950 2300 5950
+Wire Wire Line
+	2850 6050 2300 6050
+Wire Wire Line
+	3350 5450 3900 5450
+Wire Wire Line
+	3350 5550 3900 5550
+Wire Wire Line
+	3350 5650 3900 5650
+Wire Wire Line
+	3350 5750 3900 5750
+Wire Wire Line
+	3350 5850 3900 5850
+Wire Wire Line
+	3350 5950 3900 5950
+Wire Wire Line
+	3350 6050 3900 6050
+$Comp
+L CONN_02X08 X3
+U 1 1 58FEBE9F
+P 3100 5700
+F 0 "X3" H 3100 6150 50  0000 C CNN
+F 1 "CONN_02X08" V 3100 5700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm" H 3100 4500 50  0001 C CNN
+F 3 "" H 3100 4500 50  0001 C CNN
+	1    3100 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 5350 3350 5350
+$Comp
+L +3V3 #PWR92
+U 1 1 58FEC0F9
+P 2850 5200
+F 0 "#PWR92" H 2850 5050 50  0001 C CNN
+F 1 "+3V3" H 2850 5340 50  0000 C CNN
+F 2 "" H 2850 5200 50  0001 C CNN
+F 3 "" H 2850 5200 50  0001 C CNN
+	1    2850 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 5350 2850 5200
+Wire Wire Line
+	2850 4300 2950 4300
+Wire Wire Line
+	2950 4300 3050 4300
+Wire Wire Line
+	3050 4300 3100 4300
+Wire Wire Line
+	3150 4300 3250 4300
+Wire Wire Line
+	3250 4300 3350 4300
+Wire Wire Line
+	3350 4300 3450 4300
+Wire Wire Line
+	3100 4300 3150 4300
+Wire Wire Line
+	2900 1850 2900 1650
+Wire Wire Line
+	3200 1850 3200 1650
+$EndSCHEMATC

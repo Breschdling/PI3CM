@@ -1,0 +1,7 @@
+Solve Issue 
+-Footprint IC4
+-Footprint X10
+-Pullup on USB Downstream ports D+ 1.5k
+-Pulldown USB downstream ports D+ D- 15k
+-IC1 lastwiderstand am Ausgang 100R
+-Verbesserte Resetschaltung mit delay 1ms RC 15k 1uF

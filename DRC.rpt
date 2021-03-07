@@ -1,0 +1,89 @@
+** Drc report for C:\Users\Jens\Desktop\temp\PI3CM\PI3CM.kicad_pcb **
+** Created on  **
+
+** Found 0 DRC errors **
+
+** Found 27 unconnected pads **
+ErrType(2): Nicht verbundene Pads
+    @ (145,009 mm,38,976 mm): Pad 2 auf F.Cu, Keine Kupferfläche von C28 net +5V
+    @ (136,280 mm,50,580 mm): Pad 197 auf F.Cu, Keine Kupferfläche von X1
+ErrType(2): Nicht verbundene Pads
+    @ (205,511 mm,39,540 mm): Pad 2 auf F.Cu, Keine Kupferfläche von IC7 net +5V
+    @ (200,431 mm,39,540 mm): Pad 6 auf F.Cu, Keine Kupferfläche von IC7
+ErrType(2): Nicht verbundene Pads
+    @ (135,680 mm,50,580 mm): Pad 199 auf F.Cu, Keine Kupferfläche von X1 net +5V
+    @ (136,280 mm,50,580 mm): Pad 197 auf F.Cu, Keine Kupferfläche von X1
+ErrType(2): Nicht verbundene Pads
+    @ (132,030 mm,102,680 mm): Pad 1 auf F.Cu, Keine Kupferfläche von C39 net GND
+    @ (137,770 mm,101,680 mm): Pad 39 auf F.Cu, B.Cu, Intern, Keine Kupferfläche von X2
+ErrType(2): Nicht verbundene Pads
+    @ (150,368 mm,95,262 mm): Pad 1 auf F.Cu, Keine Kupferfläche von R12 net GND
+    @ (146,030 mm,97,680 mm): Pad 2 auf F.Cu, Keine Kupferfläche von C16
+ErrType(2): Nicht verbundene Pads
+    @ (181,036 mm,66,539 mm): Pad 2 auf F.Cu, Keine Kupferfläche von T5 net GND
+    @ (180,380 mm,58,780 mm): Pad 50 auf F.Cu, Keine Kupferfläche von X1
+ErrType(2): Nicht verbundene Pads
+    @ (150,368 mm,92,444 mm): Pad 2 auf F.Cu, Keine Kupferfläche von C6 net GND
+    @ (150,368 mm,95,262 mm): Pad 1 auf F.Cu, Keine Kupferfläche von R12
+ErrType(2): Nicht verbundene Pads
+    @ (154,770 mm,92,928 mm): Pad 1 auf F.Cu, Keine Kupferfläche von IC2 net GND
+    @ (150,368 mm,92,444 mm): Pad 2 auf F.Cu, Keine Kupferfläche von C6
+ErrType(2): Nicht verbundene Pads
+    @ (187,280 mm,50,580 mm): Pad 39 auf F.Cu, Keine Kupferfläche von X1 net +3V3
+    @ (186,980 mm,58,780 mm): Pad 40 auf F.Cu, Keine Kupferfläche von X1
+ErrType(2): Nicht verbundene Pads
+    @ (138,080 mm,50,580 mm): Pad 191 auf F.Cu, Keine Kupferfläche von X1 net +3V3
+    @ (137,887 mm,45,517 mm): Pad 2 auf F.Cu, Keine Kupferfläche von C8
+ErrType(2): Nicht verbundene Pads
+    @ (137,480 mm,50,580 mm): Pad 193 auf F.Cu, Keine Kupferfläche von X1 net +3V3
+    @ (138,080 mm,50,580 mm): Pad 191 auf F.Cu, Keine Kupferfläche von X1
+ErrType(2): Nicht verbundene Pads
+    @ (206,019 mm,89,928 mm): Pad 2 auf F.Cu, Keine Kupferfläche von R28 net +3V3
+    @ (202,780 mm,94,880 mm): Pad 25 auf F.Cu, Keine Kupferfläche von IC5
+ErrType(2): Nicht verbundene Pads
+    @ (193,802 mm,66,968 mm): Pad 2 auf F.Cu, Keine Kupferfläche von R24 net +3V3
+    @ (187,030 mm,62,180 mm): Pad 2 auf F.Cu, Keine Kupferfläche von C19
+ErrType(2): Nicht verbundene Pads
+    @ (183,286 mm,45,542 mm): Pad 1 auf F.Cu, B.Cu, Intern, Keine Kupferfläche von J2 net +3V3
+    @ (183,080 mm,50,580 mm): Pad 41 auf F.Cu, Keine Kupferfläche von X1
+ErrType(2): Nicht verbundene Pads
+    @ (187,030 mm,62,180 mm): Pad 2 auf F.Cu, Keine Kupferfläche von C19 net +3V3
+    @ (186,980 mm,58,780 mm): Pad 40 auf F.Cu, Keine Kupferfläche von X1
+ErrType(2): Nicht verbundene Pads
+    @ (153,912 mm,94,767 mm): Pad 1 auf F.Cu, Keine Kupferfläche von C9 net Net-(C9-Pad1)
+    @ (154,770 mm,92,278 mm): Pad 2 auf F.Cu, Keine Kupferfläche von IC2
+ErrType(2): Nicht verbundene Pads
+    @ (147,570 mm,91,680 mm): Pad 2 auf F.Cu, B.Cu, Intern, Keine Kupferfläche von J3 net /Power/Vbat
+    @ (147,580 mm,87,720 mm): Pad 3 auf F.Cu, Keine Kupferfläche von D4
+ErrType(2): Nicht verbundene Pads
+    @ (149,149 mm,44,768 mm): Pad 2 auf F.Cu, Keine Kupferfläche von R43 net /io/HDMI_SCL
+    @ (146,840 mm,45,941 mm): Pad 3 auf F.Cu, Keine Kupferfläche von D5
+ErrType(2): Nicht verbundene Pads
+    @ (185,826 mm,45,542 mm): Pad 2 auf F.Cu, B.Cu, Intern, Keine Kupferfläche von J2 net Net-(J2-Pad2)
+    @ (187,111 mm,66,513 mm): Pad 1 auf F.Cu, Keine Kupferfläche von T4
+ErrType(2): Nicht verbundene Pads
+    @ (154,061 mm,44,926 mm): Pad 3 auf F.Cu, Keine Kupferfläche von T6 net /io/HDMI_HPD_N_1V8
+    @ (168,980 mm,58,780 mm): Pad 88 auf F.Cu, Keine Kupferfläche von X1
+ErrType(2): Nicht verbundene Pads
+    @ (177,380 mm,58,780 mm): Pad 60 auf F.Cu, Keine Kupferfläche von X1 net /gpio/GPIO37
+    @ (190,881 mm,93,980 mm): Pad 10 auf F.Cu, B.Cu, Intern, Keine Kupferfläche von X3
+ErrType(2): Nicht verbundene Pads
+    @ (176,180 mm,58,780 mm): Pad 64 auf F.Cu, Keine Kupferfläche von X1 net /gpio/GPIO38
+    @ (193,421 mm,91,440 mm): Pad 11 auf F.Cu, B.Cu, Intern, Keine Kupferfläche von X3
+ErrType(2): Nicht verbundene Pads
+    @ (193,421 mm,88,900 mm): Pad 13 auf F.Cu, B.Cu, Intern, Keine Kupferfläche von X3 net /gpio/GPIO40
+    @ (174,380 mm,58,780 mm): Pad 70 auf F.Cu, Keine Kupferfläche von X1
+ErrType(2): Nicht verbundene Pads
+    @ (161,480 mm,50,580 mm): Pad 113 auf F.Cu, Keine Kupferfläche von X1 net /io/HDMI_CLK_P
+    @ (161,385 mm,41,598 mm): Pad 10 auf F.Cu, Keine Kupferfläche von X10
+ErrType(2): Nicht verbundene Pads
+    @ (147,580 mm,83,140 mm): Pad 1 auf F.Cu, Keine Kupferfläche von D4 net /Power/VIN
+    @ (144,805 mm,82,652 mm): Pad 0 auf F.Cu, B.Cu, Intern von REF**
+ErrType(2): Nicht verbundene Pads
+    @ (144,043 mm,83,820 mm): Pad 0 auf F.Cu, B.Cu, Intern von REF** net /Power/VIN
+    @ (144,805 mm,82,652 mm): Pad 0 auf F.Cu, B.Cu, Intern von REF**
+ErrType(2): Nicht verbundene Pads
+    @ (140,280 mm,92,930 mm): Pad 2 auf F.Cu, Keine Kupferfläche von C40 net /Power/VIN
+    @ (144,043 mm,83,820 mm): Pad 0 auf F.Cu, B.Cu, Intern von REF**
+
+** End of Report **

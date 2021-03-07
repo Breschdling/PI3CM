@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name Connector)(type KiCad)(uri Z:/Company/KiCAD/Connector.pretty)(options "")(descr ""))
+  (lib (name My_Inductor)(type KiCad)(uri Z:/Company/KiCAD/Inductor.pretty)(options "")(descr ""))
+  (lib (name My_Crystal)(type KiCad)(uri Z:/Company/KiCAD/MyCrystal.pretty)(options "")(descr ""))
+  (lib (name Omron_FFC)(type KiCad)(uri Z:/Company/KiCAD/Omron_FFC.pretty)(options "")(descr ""))
+)
